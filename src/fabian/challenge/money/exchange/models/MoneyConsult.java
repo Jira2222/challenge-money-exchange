@@ -13,6 +13,7 @@ public class MoneyConsult {
 
     String moneyCountry1;
     String moneyCountry2;
+
     //Method to consult exchange country money and consul into api
 
     public Money chooseExchange(int exchangeType) {
@@ -66,8 +67,5 @@ public class MoneyConsult {
         } catch (Exception e) {
             throw new RuntimeException("Money no found.");
         }
-
-
-
     }
 }
