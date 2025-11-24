@@ -14,7 +14,7 @@ public class MoneyConsult {
     String moneyCountry1;
     String moneyCountry2;
 
-    //Method to consult exchange country money and consul into api
+    //Method to consult exchange country money and consult into api
 
     public Money chooseExchange(int exchangeType) {
         //Choose money to exchange:
